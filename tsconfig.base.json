@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@tufapps/physics-2d": ["packages/core-2d/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
